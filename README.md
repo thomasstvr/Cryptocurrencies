@@ -16,4 +16,20 @@ This was then used in an elbow curve to determine the best number of clusters to
 
 ![]( https://github.com/thomasstvr/Cryptocurrencies/blob/main/Resources/ElbowCurve.png)
 
+You can clearly see the slope of the curve is greatly reduced at a cluster count of 4. This means that 4 clusters will allow the K-Means algorithm to be of best fit to our data.
 
+With the class information from the K-Means model, the data was then reassembled into a new dataframe. 
+
+![]( https://github.com/thomasstvr/Cryptocurrencies/blob/main/Resources/clustered_df.png)
+
+With this new column breaking up the data, it was then plotted on a 3D scatter plot as well as made into an easy to read table.
+
+![]( https://github.com/thomasstvr/Cryptocurrencies/blob/main/Resources/3DPlot.png)
+
+![]( https://github.com/thomasstvr/Cryptocurrencies/blob/main/Resources/table.png)
+
+Now the ‘TotalCoinSupply’ and ‘TotalCoinsMined’ columns were scaled using sklearn’s MinMaxScaler. This is done so that the relative values of these columns do not throw off the data by carrying more weight from larger values. With this newly scaled data ‘TotalCoinSupply’ was plotted against ‘TotalCoinsMined’.
+
+![]( https://github.com/thomasstvr/Cryptocurrencies/blob/main/Resources/2DPlot.png)
+
+ 
