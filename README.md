@@ -32,4 +32,6 @@ Now the ‘TotalCoinSupply’ and ‘TotalCoinsMined’ columns were scaled using sklear
 
 ![]( https://github.com/thomasstvr/Cryptocurrencies/blob/main/Resources/2DPlot.png)
 
- 
+## Summary 
+
+
