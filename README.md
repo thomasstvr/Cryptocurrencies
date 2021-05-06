@@ -34,4 +34,4 @@ Now the ‘TotalCoinSupply’ and ‘TotalCoinsMined’ columns were scaled using sklear
 
 ## Summary 
 
-
+In conclusion, data sets with large amounts of features can be represented with much less features using PCA all while not losing any of the information represented by the original data set. K-Means machine learning can be used to find trends in the data and form clusters of similar data points all without being trained. 
